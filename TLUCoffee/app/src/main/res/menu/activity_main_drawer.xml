@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_coffee"
+            android:title="Coffe" />
+        <item
+            android:id="@+id/nav_fruitjuice"
+            android:title="Nước trái cây" />
+        <item
+            android:id="@+id/nav_tea"
+            android:title="Trà đặc biệt"/>
+        <item
+            android:id="@+id/nav_cake"
+            android:title="Bánh mặn"/>
+        <item
+            android:id="@+id/nav_sweetcake"
+            android:title="Bánh ngọt"/>
+
+        <item
+            android:id="@+id/nav_setting"
+            android:title="Cài đặt"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Đăng xuất    "/>
+    </group>
+</menu>

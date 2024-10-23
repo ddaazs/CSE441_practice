@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_coffee">
+
+    <fragment
+        android:id="@+id/nav_coffee"
+        android:name="vn.edu.tlu.masv_2151173763.ui.coffee.CoffeeFragment"
+        android:label="Coffe"
+        tools:layout="@layout/fragment_coffee" />
+    <fragment
+        android:id="@+id/nav_fruitjuice"
+        android:name="vn.edu.tlu.masv_2151173763.ui.coffee.CoffeeFragment"
+        android:label="Nước trái cây"
+        tools:layout="@layout/fragment_fruitjuice" />
+    <fragment
+        android:id="@+id/nav_tea"
+        android:name="vn.edu.tlu.masv_2151173763.ui.tea.TeaFragment"
+        android:label="Trà đặc biệt"
+        tools:layout="@layout/fragment_tea" />
+    <fragment
+        android:id="@+id/nav_cake"
+        android:name="vn.edu.tlu.masv_2151173763.ui.coffee.CoffeeFragment"
+        android:label="Bánh mặn"
+        tools:layout="@layout/fragment_cake" />
+    <fragment
+        android:id="@+id/nav_sweetcake"
+        android:name="vn.edu.tlu.masv_2151173763.ui.coffee.CoffeeFragment"
+        android:label="Bánh ngọt"
+        tools:layout="@layout/fragment_sweetcake" />
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="vn.edu.tlu.masv_2151173763.ui.coffee.CoffeeFragment"
+        android:label="Cài đặt"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="vn.edu.tlu.masv_2151173763.ui.coffee.CoffeeFragment"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>
