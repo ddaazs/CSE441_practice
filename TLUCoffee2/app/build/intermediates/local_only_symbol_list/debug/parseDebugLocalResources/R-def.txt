@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id action_home
+id action_logout
+id action_settings
+id content_frame
+id drawer_layout
+id nav_menu
+id sample_text
+id toolbar
+layout activity_main
+layout header
+menu main_menu
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string navigation_drawer_close
+string navigation_drawer_open
+style Base.Theme.TLUCoffee
+style Theme.TLUCoffee
+xml backup_rules
+xml data_extraction_rules
